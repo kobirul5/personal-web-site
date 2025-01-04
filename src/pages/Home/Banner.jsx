@@ -3,13 +3,8 @@ import bannerImg from "../../assets/kobirul.png"
 import { LiaLinkedin } from "react-icons/lia";
 const Banner = () => {
     return (
-        <div className="hero  min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="flex-1">
-                    <img
-                        src={bannerImg}
-                        className="rounded-lg w-full " />
-                </div>
+        <div className="hero ">
+            <div className="hero-content pb-0 flex-col lg:flex-row">
                 <div className="flex-1">
                     <h1 className="flex-1  text-5xl font-bold">Hi, <br /> I am Kobirul Islam</h1>
                     <p className="pt-6 font-bold ">Web Developer | Problem Solver |  </p>
@@ -24,6 +19,11 @@ const Banner = () => {
                         </a>
                     </div>
                     <button className="btn bg-transparent text-Text-color"><FaDownload></FaDownload> Download Resume</button>
+                </div>
+                <div className="flex-1">
+                    <img
+                        src={bannerImg}
+                        className="rounded-lg w-full " />
                 </div>
             </div>
         </div>
