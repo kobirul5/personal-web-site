@@ -9,8 +9,8 @@
             "MongoDB",
             "Stripe API"
         ],
-        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
-        "link": "https://hotelbooking.com",
+        "image": "https://i.ibb.co.com/kJR8Js6/rasturen.jpg",
+        "link": "https://assignment-11-client-1cccb.web.app/",
         "github": "https://github.com/yourusername/hotel-booking"
     },
     {
@@ -22,9 +22,9 @@
             "Firebase",
             "Tailwind CSS"
         ],
-        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
-        "link": "https://careercounseling.com",
-        "github": "https://github.com/yourusername/career-counseling"
+        "image": "https://i.ibb.co.com/5TV3NxB/spots.jpg",
+        "link": "https://assignment-10-45e67.web.app/",
+        "github": "https://github.com/kobirul5/gear-up-sports"
     },
     {
         "id": 3,
@@ -35,8 +35,8 @@
             "Vuex",
             "Firebase"
         ],
-        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
-        "link": "https://sportstracker.com",
-        "github": "https://github.com/yourusername/sports-tracker"
+        "image": "https://i.ibb.co.com/hsNKGM6/career-Climb.jpg",
+        "link": "https://assignment-9-11085.web.app/",
+        "github": "https://github.com/kobirul5/career-climb"
     }
 ]

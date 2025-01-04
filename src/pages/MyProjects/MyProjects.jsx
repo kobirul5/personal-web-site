@@ -14,7 +14,7 @@ console.log(projects)
     return (
         <div className="container mb-20 mx-auto px-4 ">
              <h1 className="text-3xl md:text-5xl text-center font-bold">My Projects</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-8">
                 {
                     projects.map((project,idx)=> <ProjectCard
                     key={idx}
