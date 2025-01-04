@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Hotel Booking System",
+        "description": "A web application for booking hotel rooms with real-time availability, user reviews, and payment gateway integration.",
+        "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe API"
+        ],
+        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
+        "link": "https://hotelbooking.com",
+        "github": "https://github.com/yourusername/hotel-booking"
+    },
+    {
+        "id": 2,
+        "title": "Career Counseling Platform",
+        "description": "An interactive platform providing career guidance with expert counseling sessions, career tests, and personalized recommendations.",
+        "technologies": [
+            "Next.js",
+            "Firebase",
+            "Tailwind CSS"
+        ],
+        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
+        "link": "https://careercounseling.com",
+        "github": "https://github.com/yourusername/career-counseling"
+    },
+    {
+        "id": 3,
+        "title": "Sports Tracker App",
+        "description": "A mobile-friendly application to track sports activities, monitor performance, and connect with a community of athletes.",
+        "technologies": [
+            "Vue.js",
+            "Vuex",
+            "Firebase"
+        ],
+        "image": "https://i.ibb.co.com/mtM72Rt/sportweb.jpg",
+        "link": "https://sportstracker.com",
+        "github": "https://github.com/yourusername/sports-tracker"
+    }
+]
