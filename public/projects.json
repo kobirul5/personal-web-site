@@ -1,13 +1,15 @@
 [
     {
         "id": 1,
-        "title": "Hotel Booking System",
-        "description": "A web application for booking hotel rooms with real-time availability, user reviews, and payment gateway integration.",
+        "title": "Dine Divine Restaurant",
+        "description": "This website Dine Divine, where flavors come alive! Our restaurant offers a delightful dining experience with a wide variety of gourmet dishes, freshly prepared with love and the finest ingredients. Discover special offers like 30% discounts on Fried Chicken and Burgers, and enjoy a feast for your senses.",
         "technologies": [
             "React",
             "Node.js",
             "MongoDB",
-            "Stripe API"
+            "Firebase",
+            "Tailwind CSS",
+            "Daysi UI"
         ],
         "image": "https://i.ibb.co.com/kJR8Js6/rasturen.jpg",
         "link": "https://assignment-11-client-1cccb.web.app/",
@@ -15,12 +17,16 @@
     },
     {
         "id": 2,
-        "title": "Career Counseling Platform",
-        "description": "An interactive platform providing career guidance with expert counseling sessions, career tests, and personalized recommendations.",
+        "title": "GearUp Sports Marketplace",
+        "description": "This website serves as a comprehensive platform for sports enthusiasts, offering a wide range of sports equipment and accessories. Users can explore, add, and manage their equipment while enjoying a seamless shopping experience. Built with modern web technologies, the platform is designed to cater to athletes, teams, and casual players alike.",
         "technologies": [
-            "Next.js",
+            "React",
             "Firebase",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Daysi UI",
+            "Node.js",
+            "express JS",
+            "MongoDB"
         ],
         "image": "https://i.ibb.co.com/5TV3NxB/spots.jpg",
         "link": "https://assignment-10-45e67.web.app/",
@@ -28,11 +34,12 @@
     },
     {
         "id": 3,
-        "title": "Sports Tracker App",
-        "description": "A mobile-friendly application to track sports activities, monitor performance, and connect with a community of athletes.",
+        "title": "CareerClimb - Your Career Partner",
+        "description": "A dedicated platform offering expert career guidance, professional development services, and resources to help individuals unlock their career potential and achieve their goals.",
         "technologies": [
-            "Vue.js",
-            "Vuex",
+            "React",
+            "Tailwind CSS",
+            "Daysi UI",
             "Firebase"
         ],
         "image": "https://i.ibb.co.com/hsNKGM6/career-Climb.jpg",

@@ -1,6 +1,6 @@
 import { FaBars, FaDownload } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
+import CVpdf from "../../../assets/Kobirul.pdf"
 const Navbar = () => {
 
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-transparent text-Text-color"> <FaDownload></FaDownload> Download Resume</a>
+                <Link to={CVpdf} download="My-Resume" target='_blank' className="btn bg-transparent text-Text-color"> <FaDownload></FaDownload> Download Resume</Link>
             </div>
         </div>
     );

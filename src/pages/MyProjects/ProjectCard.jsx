@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 const ProjectCard = ({project}) => {
 
-    const {image, title, technologies, description} = project
+    const {image, title, technologies, description, link, github} = project
     return (
         <div className="card  bg-[#222222] border border-Text-color shadow-xl">
             <figure className="px-5 pt-5">
@@ -22,9 +24,10 @@ const ProjectCard = ({project}) => {
                         {tec}
                     </button>)
                 }</p>
-                <p className="font-bold"><a href="https://assignment-11-client-1cccb.web.app">Live Link</a></p>
+                <p className="font-bold btn btn-outline text-Text-color"><Link to={link}>Live Link</Link></p>
+                <p className="font-bold btn btn-outline text-Text-color"><Link to={github}>GitHub Link</Link></p>
                 <div className="card-actions">
-                    <button className="btn btn-accent">Details</button>
+                    <button className="btn btn-accent w-full">Details</button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import { FaDownload, FaFacebook, FaGithub } from "react-icons/fa";
 import bannerImg from "../../assets/kobirul.png"
 import { LiaLinkedin } from "react-icons/lia";
+import CVpdf from "../../assets/Kobirul.pdf"
+import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div className="hero ">
@@ -18,7 +20,7 @@ const Banner = () => {
                             <FaFacebook></FaFacebook>
                         </a>
                     </div>
-                    <button className="btn bg-transparent text-Text-color"><FaDownload></FaDownload> Download Resume</button>
+                    <Link to={CVpdf} download="My-Resume" target='_blank' className="btn bg-transparent text-Text-color"><FaDownload></FaDownload> Download Resume</Link>
                 </div>
                 <div className="flex-1">
                     <img
