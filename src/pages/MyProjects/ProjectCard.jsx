@@ -24,8 +24,8 @@ const ProjectCard = ({project}) => {
                         {tec}
                     </button>)
                 }</p>
-                <p className="font-bold btn btn-outline text-Text-color"><Link to={link}>Live Link</Link></p>
-                <p className="font-bold btn btn-outline text-Text-color"><Link to={github}>GitHub Link</Link></p>
+                <p className="font-bold btn btn-outline text-Text-color border-accent"><Link target="_blank" to={link}>Live Link</Link></p>
+                <p className="font-bold btn btn-outline text-Text-color border-accent"><Link target="_blank" to={github}>GitHub Link</Link></p>
                 <div className="card-actions">
                     <button className="btn btn-accent w-full">Details</button>
                 </div>
