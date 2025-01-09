@@ -1,12 +1,12 @@
-/* eslint-disable react/prop-types */
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-const ProjectCard = ({project}) => {
+const ProjectDetails = () => {
+    const location = useLocation()
+    const { image, title, technologies, description, link, github} = location.state
 
-    const {id, image, title, technologies, description, link, github} = project
     return (
-        <div className="card  bg-[#222222] border border-Text-color shadow-xl">
+        <div className="card my-10 md:w-[80%] mx-auto bg-[#222222] border border-Text-color shadow-xl">
             <figure className="px-5 pt-5">
                 <img
                     src={image}
@@ -15,11 +15,11 @@ const ProjectCard = ({project}) => {
             </figure>
             <div className="card-body p-5">
                 <h2 className="card-title">{title}</h2>
-                <p> <span className="font-semibold">Description:-</span> {description.slice(0,70)}....</p>
+                <p> <span className="font-semibold">Description:-</span> {description}</p>
                 <p className="flex items-center flex-wrap gap-2"> <span className="font-semibold my-2">Technologies:-</span> {
-                    technologies.map((tec,idx)=> <button
-                    key={idx}
-                    className="btn btn-xs bg-transparent text-Text-color"
+                    technologies.map((tec, idx) => <button
+                        key={idx}
+                        className="btn btn-xs bg-transparent text-Text-color"
                     >
                         {tec}
                     </button>)
@@ -27,11 +27,11 @@ const ProjectCard = ({project}) => {
                 <p className="font-bold btn btn-outline text-Text-color border-accent"><Link target="_blank" to={link}>Live Link</Link></p>
                 <p className="font-bold btn btn-outline text-Text-color border-accent"><Link target="_blank" to={github}>GitHub Link</Link></p>
                 <div className="card-actions">
-                    <Link state={project} to={`/details/${id}`} className="btn btn-accent w-full">Details</Link>
+                    <Link  className="btn btn-accent w-full">Hare ME</Link>
                 </div>
             </div>
         </div>
     );
 };
 
-export default ProjectCard;
+export default ProjectDetails;
