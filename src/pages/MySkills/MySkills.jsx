@@ -1,9 +1,8 @@
 import Marquee from "react-fast-marquee";
-import { Element } from "react-scroll";
 
 const MySkills = () => {
     return (
-        <Element
+        <div
             name="skillsSection"
             style={{
                 display: "flex",
@@ -29,7 +28,7 @@ const MySkills = () => {
 
                 </div>
             </div>
-        </Element>
+        </div>
 
     );
 };
