@@ -33,7 +33,7 @@ const ContactMe = () => {
 
     return (
         <div className="container mx-auto px-4 mb-20 grid grid-cols-1 gap-20 md:grid-cols-2">
-            <div className="card bg-[#222222] w-full text-black shadow-2xl">
+            <div className="card bg-[#222222] w-full text-white shadow-2xl">
                 <form ref={form} onSubmit={sendEmail} className="card-body">
                     <div className="form-control">
                         <label className="label">
