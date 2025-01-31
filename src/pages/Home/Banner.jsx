@@ -16,30 +16,30 @@ const Banner = () => {
                             className="flex-1  text-5xl font-bold"
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.9, delay: 0.2 }}
+                            transition={{ duration: 0.9, delay: 0.5 }}
                         >Hi, <br /> I am Kobirul Islam</motion.h1>
 
                         <motion.p
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5, delay: 0.2 }}
+                            transition={{ duration: 0.5, delay: 0.5 }}
                             className="pt-6 font-bold ">Web Developer | Problem Solver |  </motion.p>
                         <motion.p
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5, delay: 0.1 }}
+                            transition={{ duration: 0.5, delay: 0.3 }}
                             className="pb-6 "
                         >Turning ideas into dynamic, user-friendly digital experiences. </motion.p>
                         <div className="flex gap-2 text-3xl pb-6">
                             <motion.a
                                 initial={{ x: -100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: 0.5, delay: 0.7 }}
+                                transition={{ duration: 0.5, delay: 0.9 }}
                                 href="https://github.com/kobirul5" target="_blank" ><FaGithub></FaGithub></motion.a>
                             <motion.a
                                 initial={{ x: -100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
+                                transition={{ duration: .5, delay: 0.5 }}
                                 href="https://www.linkedin.com/in/md-kobirul-islam-103641217" target="_blank">
                                 <LiaLinkedin></LiaLinkedin>
                             </motion.a>
@@ -62,7 +62,7 @@ const Banner = () => {
                     <motion.div className="flex-1"
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.9, delay: 0.2 }}>
+                        transition={{ duration: 0.9, delay: 0.5 }}>
                         <img
                             src={bannerImg}
                             className="rounded-lg w-full " />
