@@ -35,21 +35,21 @@ const ContactMe = () => {
         <div className="container mx-auto px-4 mb-20 grid grid-cols-1 gap-20 md:grid-cols-2">
             <div className="card bg-[#222222] w-full text-white shadow-2xl">
                 <form ref={form} onSubmit={sendEmail} className="card-body">
-                    <div className="form-control">
+                    <div className="form-control ">
                         <label className="label">
-                            <span className="label-text">Your Name</span>
+                            <span className="label-text text-white">Your Name</span>
                         </label>
                         <input type="text" name="from_name" placeholder="Name" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Your Email</span>
+                            <span className="label-text text-white">Your Email</span>
                         </label>
                         <input type="email" name="from_email" placeholder="email" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Massage</span>
+                            <span className="label-text text-white">Massage</span>
                         </label>
                         <textarea name="message" type="password" placeholder="Massage" className="input input-bordered h-28" required />
                     </div>
