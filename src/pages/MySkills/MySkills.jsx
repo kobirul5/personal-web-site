@@ -19,29 +19,31 @@ const MySkills = () => {
     ];
 
     return (
-        <motion.section
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.9, delay: 0.2 }}
-            className="py-10 pb-14">
-            <Element name="skillsSection" className="max-w-4xl  mx-auto text-center">
-                <h2  className="text-3xl md:text-5xl text-center font-bold  ">My Skills</h2>
-                <p className="mt-2">Technologies I work with</p>
-            </Element>
+        <Element name="skillsSection">
+            <motion.section
+                initial={{ y: 100, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.9, delay: 0.2 }}
+                className="py-10 pb-14">
+                <div className="max-w-4xl  mx-auto text-center">
+                    <h2 className="text-3xl md:text-5xl text-center font-bold  ">My Skills</h2>
+                    <p className="mt-2">Technologies I work with</p>
+                </div>
 
-            <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {skills.map((skill, index) => (
-                    <motion.div
-                        key={index}
-                        className="p-4 bg-white  rounded-xl shadow-md flex flex-col items-center gap-2"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        <div className="text-4xl">{skill.icon}</div>
-                        <p className="text-gray-700 font-medium">{skill.name}</p>
-                    </motion.div>
-                ))}
-            </div>
-        </motion.section>
+                <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                    {skills.map((skill, index) => (
+                        <motion.div
+                            key={index}
+                            className="p-4 bg-white  rounded-xl shadow-md flex flex-col items-center gap-2"
+                            whileHover={{ scale: 1.1 }}
+                        >
+                            <div className="text-4xl">{skill.icon}</div>
+                            <p className="text-gray-700 font-medium">{skill.name}</p>
+                        </motion.div>
+                    ))}
+                </div>
+            </motion.section>
+        </Element>
     );
 };
 

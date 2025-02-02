@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
+import { Element } from "react-scroll";
 
 const AboutMe = () => {
     return (
+        <Element
+        name="aboutSection"
+        >
         <motion.div
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -10,9 +14,11 @@ const AboutMe = () => {
             className="container mx-auto px-6 py-20"
         >
             {/* Title */}
+           
             <h1 className="text-4xl md:text-5xl font-bold text-center  mb-6">
                 About Me
             </h1>
+           
 
             {/* Content */}
             <p
@@ -40,6 +46,7 @@ const AboutMe = () => {
             </p>
             
         </motion.div>
+        </Element>
     );
 };
 

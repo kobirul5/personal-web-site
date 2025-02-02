@@ -1,15 +1,31 @@
 import { FaDownload, FaFacebook, FaGithub } from "react-icons/fa";
 import bannerImg from "../../assets/kobirul.png"
 import { LiaLinkedin } from "react-icons/lia";
-
 import { Link } from "react-router-dom";
 import { motion } from "motion/react"
+import { scroller } from "react-scroll";
+// import bannerBg from '../../assets/bannerbg.svg'
 const Banner = () => {
+
+    const scrollToSection = (targetSection) => {
+        scroller.scrollTo(targetSection, {
+            duration: 800, // Smooth scrolling duration in milliseconds
+            delay: 0,
+            smooth: "easeInOutQuart", // Scrolling animation
+            offset: -130,
+            // spy: true, 
+        });
+    };
+
     return (
-        <div className=""
+        <div className="bg-gradient-to-l "
             name="homeSection"
         >
-            <div className="hero ">
+            <div
+                // style={{
+                //     backgroundImage: `url(${bannerBg})`,
+                // }}
+                className="hero " >
                 <div className="hero-content text-black/90 pb-0 flex-col lg:flex-row">
                     <div className="flex-1">
                         <motion.h1
@@ -56,7 +72,7 @@ const Banner = () => {
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.9, delay: 0.5 }}
                         >
-                            <Link className="btn bg-transparent font-bold btn-outline"><FaDownload></FaDownload>Hire Me</Link>
+                            <Link onClick={() => scrollToSection("hireMe")} className="btn bg-transparent font-bold btn-outline"><FaDownload></FaDownload>Hire Me</Link>
                         </motion.div>
                     </div>
                     <motion.div className="flex-1 relative"

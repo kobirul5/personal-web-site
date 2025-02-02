@@ -9,16 +9,16 @@ const Navbar = () => {
     const scrollToSection = (targetSection) => {
         scroller.scrollTo(targetSection, {
             duration: 800, // Smooth scrolling duration in milliseconds
-            delay: 0,
+            delay: .5,
+            offset: -100,
             smooth: "easeInOutQuart", // Scrolling animation
-            offset: -130,
-            // spy: true, 
+            spy: true, 
         });
     };
 
     const links = <>
         <li><Link className="nav-link" onClick={()=>scrollToSection("homeSection")}  >Home</Link></li>
-        <li><Link className="nav-link" onClick={()=>scrollToSection("about")}  >About Me</Link></li>
+        <li><Link className="nav-link" onClick={()=>scrollToSection("aboutSection")}  >About Me</Link></li>
         <li><Link className="nav-link" onClick={()=>scrollToSection("skillsSection")} >Skills</Link></li>
         <li><Link className="nav-link" onClick={()=>scrollToSection("projectSection")} >Portfolio</Link></li>
     </>

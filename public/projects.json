@@ -1,36 +1,94 @@
 [
     {
-        "id": 1,
-        "title": "Dine Divine Restaurant",
-        "description": "This website Dine Divine, where flavors come alive! Our restaurant offers a delightful dining experience with a wide variety of gourmet dishes, freshly prepared with love and the finest ingredients. Discover special offers like 30% discounts on Fried Chicken and Burgers, and enjoy a feast for your senses.",
+        "id": 12,
+        "title": "Work Nest- Employee Management System",
+        "description": "A web application for monitoring employee workload, salaries, and HR management. Employees can post workflow updates, HR executives can verify and pay employees, and admins can manage user roles and payroll.",
         "technologies": [
             "React",
             "Node.js",
             "MongoDB",
             "Firebase",
+            "Express.js",
             "Tailwind CSS",
-            "Daysi UI"
+            "Daisy UI",
+            "JWT"
         ],
-        "image": "https://i.ibb.co.com/kJR8Js6/rasturen.jpg",
-        "link": "https://assignment-11-client-1cccb.web.app/",
-        "github": "https://github.com/kobirul5/Dine-Divine"
+        "features": [
+            "Role-based authentication (Employee, HR, Admin)",
+            "Private dashboard for employees, HR, and admins",
+            "Employees can log work hours and view payment history",
+            "HR can verify employees and process salary payments",
+            "Admin can promote employees to HR and adjust salaries",
+            "Secure API routes with JWT authentication",
+            "SweetAlert/Toast notifications for all CRUD operations",
+            "Responsive design for mobile, tablet, and desktop",
+            "Dashboard with table and card grid toggle view"
+        ],
+        "image": "https://i.ibb.co.com/BKsS5Dh9/worknest.jpg",
+        "link": "https://worknest-50eb0.web.app/",
+        "github_client": "https://github.com/kobirul5/work-nest",
+        "github_server": "https://github.com/kobirul5/work-nest-server",
+        "admin_email": "admin@example.com",
+        "admin_password": "Admin@123"
     },
     {
         "id": 2,
-        "title": "GearUp Sports Marketplace",
-        "description": "This website serves as a comprehensive platform for sports enthusiasts, offering a wide range of sports equipment and accessories. Users can explore, add, and manage their equipment while enjoying a seamless shopping experience. Built with modern web technologies, the platform is designed to cater to athletes, teams, and casual players alike.",
+        "name": "Dine Divine",
+        "title": "Dine Divine- Restaurant Management System",
+        "description": "A full-stack restaurant management website that allows users to browse food items, place orders, and manage restaurant operations efficiently. The system includes user authentication, food management, order tracking, and a secure payment system.",
         "technologies": [
             "React",
-            "Firebase",
-            "Tailwind CSS",
-            "Daysi UI",
             "Node.js",
-            "express JS",
-            "MongoDB"
+            "MongoDB",
+            "Firebase",
+            "Express.js",
+            "Tailwind CSS",
+            "Daisy UI",
+            "JWT"
+        ],
+        "features": [
+            "Public pages for viewing and purchasing food items",
+            "Food quantity management and purchase limitations",
+            "Search and filter functionality for food items",
+            "Theme toggling for light/dark mode",
+            "Food order management with purchase functionality",
+            "Food gallery with interactive image lightbox",
+            "CRUD operations for food items (Add, Edit, Delete)",
+            "Responsive design for mobile, tablet, and desktop",
+            "JWT Authentication for private routes",
+            "Google/GitHub login integration"
+        ],
+        "image": "https://i.ibb.co.com/kJR8Js6/rasturen.jpg",
+        "link": "https://assignment-11-client-1cccb.web.app/",
+        "github_client": "https://github.com/kobirul5/Dine-Divine",
+        "github_server": "https://github.com/kobirul5/Dine-Divine-Server"
+    },
+    {
+        "id": 3,
+        "title": "GearUp Sports - Sports Equipment Store",
+        "description": "EquiSports is a responsive e-commerce website for purchasing sports accessories and gear. Customers can browse products, view details, and manage their own equipment listings. The platform includes authentication, product management, and a user-friendly experience.",
+        "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Firebase",
+            "Express.js",
+            "Tailwind CSS",
+            "Daisy UI"
+        ],
+        "features": [
+            "User authentication with email/password and social login",
+            "Add, update, and delete equipment (private routes)",
+            "Sort sports equipment by price (ascending/descending)",
+            "Dark/Light theme toggle",
+            "Responsive design for mobile, tablet, and desktop",
+            "Loading spinner while fetching data",
+            "Error handling with toast/sweet alert notifications"
         ],
         "image": "https://i.ibb.co.com/5TV3NxB/spots.jpg",
         "link": "https://assignment-10-45e67.web.app/",
-        "github": "https://github.com/kobirul5/gear-up-sports"
+        "github_client": "https://github.com/kobirul5/gear-up-sports",
+        "github_server": "https://github.com/your-username/equisports-server"
     },
     {
         "id": 3,

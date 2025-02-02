@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const ProjectCard = ({project}) => {
 
-    const {id, image, title, technologies, link, github} = project
+  const {id, image, title, link, github_client, github_server } =  project
     return (
         <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -18,7 +18,7 @@ const ProjectCard = ({project}) => {
         <img
           src={image}
           alt={title}
-          className="rounded-xl object-cover"
+          className="rounded-xl h-[200px] object-cover"
         />
       </figure>
 
@@ -29,7 +29,7 @@ const ProjectCard = ({project}) => {
         </h2>
         
         {/* Technologies */}
-        <div className="flex flex-wrap gap-2 mt-3">
+        {/* <div className="flex flex-wrap gap-2 mt-3">
           <span className="font-semibold ">Technologies:</span>
           {technologies.map((tec, idx) => (
             <motion.button
@@ -41,15 +41,18 @@ const ProjectCard = ({project}) => {
               {tec}
             </motion.button>
           ))}
-        </div>
+        </div> */}
 
         {/* Live & GitHub Links */}
-        <div className="flex justify-between mt-5">
+        <div className="flex flex-wrap justify-center gap-5 lg:gap-1 mt-5">
           <Link to={link} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
             Live Link
           </Link>
-          <Link to={github} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
-            GitHub
+          <Link to={github_client} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
+            GitHub Client
+          </Link>
+          <Link to={github_server} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
+            GitHub Server
           </Link>
         </div>
 
