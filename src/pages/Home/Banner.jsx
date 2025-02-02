@@ -23,7 +23,7 @@ const Banner = () => {
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
-                            className="pt-6 font-bold ">Web Developer | Problem Solver |  </motion.p>
+                            className="pt-6 text-xl font-bold ">MERN Stack Web Developer</motion.p>
                         <motion.p
                             initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
@@ -56,10 +56,10 @@ const Banner = () => {
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.9, delay: 0.5 }}
                         >
-                            <Link to={CVpdf} download="My-Resume" target='_blank' className="btn bg-transparent text-Text-color"><FaDownload></FaDownload> Download Resume</Link>
+                            <Link to={CVpdf} download="Resume_of_Kobirul" target='_blank' className="btn bg-transparent "><FaDownload></FaDownload> Download Resume</Link>
                         </motion.div>
                     </div>
-                    <motion.div className="flex-1"
+                    <motion.div className="flex-1 relative"
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.9, delay: 0.5 }}>
