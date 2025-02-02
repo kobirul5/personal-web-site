@@ -17,7 +17,8 @@ const ContactMe = () => {
                 publicKey: 'gsRLxFOjLeCYZW5IM',
             })
             .then(
-                () => {
+                (res) => {
+                    console.log(res)
                     Swal.fire({
                         title: "MAIL SEND SUCCESSFULLY!",
                         icon: "success",
@@ -75,7 +76,7 @@ const ContactMe = () => {
                         />
                     </div>
                     <div className="form-control">
-                        <button className="btn btn-accent w-full text-lg font-semibold transition-transform transform hover:scale-105">
+                        <button className="btn bg-Highlights-color w-full text-lg font-semibold transition-transform transform hover:scale-105">
                             Send Message
                         </button>
                     </div>

@@ -1,16 +1,16 @@
 import { FaDownload, FaFacebook, FaGithub } from "react-icons/fa";
 import bannerImg from "../../assets/kobirul.png"
 import { LiaLinkedin } from "react-icons/lia";
-import CVpdf from "../../assets/Kobirul.pdf"
+
 import { Link } from "react-router-dom";
 import { motion } from "motion/react"
 const Banner = () => {
     return (
-        <div
+        <div className=""
             name="homeSection"
         >
             <div className="hero ">
-                <div className="hero-content pb-0 flex-col lg:flex-row">
+                <div className="hero-content text-black/90 pb-0 flex-col lg:flex-row">
                     <div className="flex-1">
                         <motion.h1
                             className="flex-1  text-5xl font-bold"
@@ -56,7 +56,7 @@ const Banner = () => {
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.9, delay: 0.5 }}
                         >
-                            <Link to={CVpdf} download="Resume_of_Kobirul" target='_blank' className="btn bg-transparent "><FaDownload></FaDownload> Download Resume</Link>
+                            <Link className="btn bg-transparent font-bold btn-outline"><FaDownload></FaDownload>Hire Me</Link>
                         </motion.div>
                     </div>
                     <motion.div className="flex-1 relative"

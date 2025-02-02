@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><Link className="nav-link" onClick={()=>scrollToSection("projectSection")} >Portfolio</Link></li>
     </>
     return (
-        <div className="navbar border-b backdrop-blur-sm sticky  top-0 z-10">
+        <div className="navbar border-b backdrop-blur-sm fixed  top-0 z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -45,10 +45,10 @@ const ProjectCard = ({project}) => {
 
         {/* Live & GitHub Links */}
         <div className="flex justify-between mt-5">
-          <Link to={link} target="_blank" className="btn btn-outline border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white">
+          <Link to={link} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
             Live Link
           </Link>
-          <Link to={github} target="_blank" className="btn btn-outline border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white">
+          <Link to={github} target="_blank" className="btn btn-outline border-Highlights-color hover:border-Highlights-color hover:bg-Highlights-color hover:text-black  ">
             GitHub
           </Link>
         </div>
@@ -58,7 +58,7 @@ const ProjectCard = ({project}) => {
           <Link
             state={project}
             to={`/details/${id}`}
-            className="btn btn-accent w-full transition-transform transform hover:scale-105"
+            className="btn w-full bg-Highlights-color hover:bg-white border-Highlights-color hover:border-Highlights-color" 
           >
             Details
           </Link>

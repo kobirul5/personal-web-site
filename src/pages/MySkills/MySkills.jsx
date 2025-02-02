@@ -23,7 +23,7 @@ const MySkills = () => {
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.9, delay: 0.2 }}
-            className="py-20 bg-gray-100 ">
+            className="py-10 pb-14">
             <Element name="skillsSection" className="max-w-4xl  mx-auto text-center">
                 <h2  className="text-3xl md:text-5xl text-center font-bold  ">My Skills</h2>
                 <p className="mt-2">Technologies I work with</p>

@@ -6,7 +6,7 @@ import route from './route/route.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className=''>
+    <div className='text-black/90 '>
       <RouterProvider router={route}></RouterProvider>
     </div>
   </StrictMode>,

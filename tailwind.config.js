@@ -10,7 +10,7 @@ export default {
         'Background-color': '#242424',
         'Accent-color': '#FF00FF',
         'Text-color': '#F0F0F0',
-        'Highlights-color': '#00FFFF'
+        'Highlights-color': '#5afdfd'
       },
     },
   },
